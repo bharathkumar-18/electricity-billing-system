@@ -1,0 +1,50 @@
+@charset "ISO-8859-1";
+
+* {
+	margin: 0;
+}
+
+body {
+	padding: 20px;
+	background-color: rgb(243, 242, 242);
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	color: rgb(255, 255, 255);
+	background-color: rgb(21, 167, 224);
+	padding: 25px;
+	border-radius: 0px;
+	font-size: x-large;
+	padding-bottom: 5px;
+	padding-left: 5px;
+}
+
+h2 {
+	color: rgb(1, 192, 255);
+	font-size: x-large;
+}
+
+hr {
+	border: 1px solid #ccc;
+	margin-top: 5px;
+}
+
+p {
+	font-size: 1.3em;
+}
+
+button {
+	background-color: rgb(1, 192, 255);
+	color: white;
+	display: flex;
+	align-items: center;
+	padding: 10px 10px;
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+	margin: auto;
+	font-size: large;
+	display: block;
+}

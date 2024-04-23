@@ -1,0 +1,116 @@
+@charset "ISO-8859-1";
+
+/* Removing margin for all things */
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+/* Occupying whole body and adding background color with font family */
+body {
+	width: 100%;
+	height: 100%;
+	background-color: rgb(228, 226, 226);
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+		'Lucida Sans', Arial, sans-serif;
+	position: relative;
+}
+
+/* Main heading - Register New User */
+.title-div {
+	color: white;
+	background-color: rgb(9, 182, 250);
+	width: 100%;
+	margin-top: 0px;
+}
+/* Fix heading typography */
+.main-heading {
+	font-size: 2vw;
+	padding: 0.5vw;
+}
+
+/* Added font and color for sub-headings */
+.heading {
+	color: rgb(21, 167, 224);
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+		'Lucida Sans', Arial, sans-serif;
+	padding-left: 1vw;
+	padding-right: 1vw;
+}
+
+/* Added asterisk for all labels */
+label::before {
+	content: '* ';
+	color: red;
+}
+
+/* Added padding for input fields */
+input, select {
+	padding: 0.2vw;
+}
+
+/* Adusting items left and right */
+.items {
+	padding-left: 3vw;
+	padding-right: 3vw;
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.items .left-items, .right-items {
+	width: 50%;
+}
+
+.labels-and-inputs {
+	display: flex;
+	width: 100%;
+}
+
+.labels-and-inputs .labels {
+	text-align: right;
+	padding-right: 1vw;
+	width: 30%;
+}
+
+.labels-and-inputs .inputs {
+	width: 40%;
+}
+
+.labels-and-inputs .labels, .inputs {
+	display: grid;
+}
+
+/* Remove increment and decrement buttons input type="number" */
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button
+	{
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+/* Align buttons in center */
+.buttons {
+	text-align: center;
+}
+
+#reset-btn {
+	height: 4vh;
+	width: 6vw;
+	background-color: black;
+	color: white;
+	border: none;
+	border-radius: 5px;
+}
+
+#register-btn {
+	height: 4vh;
+	width: 6vw;
+	background-color: rgb(9, 182, 250);;
+	color: white;
+	border: none;
+	border-radius: 5px;
+}
+
+.disable {
+	pointer-events: none;
+}

@@ -1,0 +1,101 @@
+/* Background COlor: rgb(38, 24, 41); */
+body{
+   /* background-color: rgb(38, 24, 41); */
+   	 background-image: url("loginBackground.png");
+    background-size:100%;
+}
+/* body:hover{
+    background-color: rgb(38, 24, 41);
+    transition: .7s;
+} */
+.container{
+display: flex;
+flex-direction: column;
+align-items:center;
+width: 40%;
+padding-top: 20px;
+padding-bottom: 20px;
+margin-left: auto;
+margin-right:auto;
+margin-top: 18vh;
+/* background-color: rgb(38, 24, 41); */
+color: rgb(100, 100, 100);
+background-color: black;
+border-radius:30px;
+}
+.container:hover{
+    /* border-style:groove;
+    border-width: 1px;
+    border-color: white; */
+    /* background-color: #69133f; */
+    border-radius: 3px;
+    color: #000000;
+    overflow: visible;
+    transition: .6s ease-in-out;
+}
+.title{
+    display: flex;
+    flex-direction: row;
+    background-color: aqua;
+    color: azure;
+}
+.custid ,.eid ,.pwd,.reg_div{
+    display: grid;
+    grid-template-columns: 1fr,1fr;
+    row-gap: 10px;
+}
+.heading{
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;  
+}
+label{
+	color:white;
+}
+.cust_in,.e_in,.pwd_in{
+    font-weight: 500;
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 40px;
+    width: 400px;
+    padding-left: 10px;
+    outline-color: rgb(96, 68, 102);
+    border: none;
+    border-radius: 5px;
+    color: #000000;
+}
+.sub_button,.signin{
+    font-weight: 500;
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    border: none;
+    border-radius: 3px;
+}
+.div_button{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.signin{
+    text-decoration: none;
+    color: white;
+}
+.sign_in{
+    color: #0ba3f4;
+}
+.sign_in:hover{
+    color: blue;
+    cursor: pointer;
+}
+.signin:hover{
+    cursor:default;
+}
+
+.sub_button:hover {
+    transition: 0.4s ease-in-out;
+    background-color: #3498db;
+    color: #ffffff;
+    border-color:lightgreen;
+    border-radius: 4px;
+}
